@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .rating-section {
+    text-align: center;
+  }
+  
+  #ratingSlider {
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .star.active {
+    background-color: #ffcc00;
+  }
+  
+  .rating-bar {
+    width: 100%;
+    height: 5px;
+    background-color: #ccc;
+    position: relative;
+  }
+  
+  .notch {
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    position: absolute;
+    top: -2.5px;
+  }
+  
+  #submitBtn {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  #finalSubmitBtn {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  #notesInput {
+    width: 200px;
+    margin: 10px auto;
+    padding: 5px;
+  }
+  
+  .ratings-section {
+    margin-top: 40px;
+  }
+  
+  #ratingsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  #ratingsTable th,
+  #ratingsTable td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+ /* Existing styles... */
+
+.rating-graph {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.chart-container {
+  position: relative;
+}
+
+#chart {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+  
+  @media (max-width: 600px) {
+    .stars {
+      flex-wrap: wrap;
+    }
+  
+    .star {
+      margin-bottom: 5px;
+    }
+  }
+  
+
+  

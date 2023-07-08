@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Rating App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="movieTitle"></h1>
+
+    <div class="rating-section">
+      <h2>Rate the movie</h2>
+      <div id="ratingSlider">
+        <div class="stars"></div>
+        <div class="rating-bar"></div>
+      </div>
+      <button id="submitBtn" disabled>Submit</button>
+      <input type="text" id="notesInput" placeholder="Enter notes">
+    </div>
+
+    <div class="ratings-section">
+      <h2>Ratings</h2>
+      <table id="ratingsTable">
+        <thead>
+          <tr>
+            <th>Review Number</th>
+            <th>Time</th>
+            <th>Rating</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody id="ratingsTableBody"></tbody>
+      </table>
+    </div>
+
+    <div class="rating-graph" id="ratingGraph">
+      <h2>Rating Graph</h2>
+      <canvas id="chart"></canvas>
+    </div>
+
+    <button id="finalSubmitBtn" class="final-submit-btn">Generate Rating Graph</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
