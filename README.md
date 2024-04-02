@@ -4,8 +4,7 @@ A new concept of rating films. You get prompted throughout the film's duration t
 
 ## Image
 
-
-
+![Index](./assets/index.png)
 
 
 ## Table of Contents
